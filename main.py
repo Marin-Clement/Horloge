@@ -2,6 +2,7 @@ import tkinter as tk
 from datetime import datetime, timedelta
 
 root = tk.Tk()
+root.resizable(False,False)
 root.title("Clock")
 
 on = True
